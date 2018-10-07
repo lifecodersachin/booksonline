@@ -23,9 +23,10 @@ line-height:100px;
 .column {
     margin-top:0px;
     float: left;
-    width: 29%;
-    padding: 15px;
-    height: 361px;
+  width: 29%;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.6);
+  margin: 10px
 }
 .row::after {
     margin-top:1px;
@@ -92,9 +93,12 @@ h1{
     color:#f00;
 }
 p{
-color:#0ff;
+color:#131313;
 text-space-collapse:collapse;
 font-size:medium;
+}
+.design p{
+  color: white;
 }
 
 h2 {
